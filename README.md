@@ -10,7 +10,7 @@ npm install
 ## Usage
 
 Add all the await statements in an asynchronous function.
-
+How to use in a node.js environment:
 ```javascript
 const OntologyParser = require("./RDFTripleParser.js");
 
@@ -19,7 +19,6 @@ const allClasses = await OntologyParser.getAllClasses(ontologyData);
 const allNonClasses = await OntologyParser.getAllNonClasses(ontologyData);
 const predicatesQuery = await OntologyParser.getPredicatesWithValue(ontologyData, "value");
 ```
-
 ## License and copyright
 
 This library was developed by Tim Vanhee and contributors. The source code is available under an MIT license.

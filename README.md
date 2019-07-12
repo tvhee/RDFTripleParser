@@ -12,7 +12,7 @@ npm install
 Add all the await statements in an asynchronous function.
 
 ```javascript
-const OntologyParser = require("./parseOntology.js");
+const OntologyParser = require("./RDFTripleParser.js");
 
 const ontologyData = await OntologyParser.getOntology("http://vocab.gtfs.org/gtfs.ttl");
 const allClasses = await OntologyParser.getAllClasses(ontologyData);

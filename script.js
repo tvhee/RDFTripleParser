@@ -1,4 +1,4 @@
-var OntologyParser = require("./parseOntology.js");
+var OntologyParser = require("./RDFTripleParser.js");
 
 async function getDataFromRDFFile(){
   var result = await OntologyParser.getOntology("http://vocab.gtfs.org/gtfs.ttl");
